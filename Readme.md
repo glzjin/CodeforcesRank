@@ -1,7 +1,7 @@
 # CodeforcesRank
 
 ## What
-A tool to help you calc you point at Codeforces.com
+A tool to help you calc your point at Codeforces.com
 
 ## Usage
 
