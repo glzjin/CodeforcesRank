@@ -33,11 +33,11 @@ while True:
                 calc_problem.append(i['problem']['name'])
                 if div != 0:
                     rank += config.Config.rules[div][i['problem']['index']]
-                    print("Problem <" + i['problem']['name'] + "> <div: " + str(div) + "> rank: " +
+                    print("Problem <" + str(i['contestId']) + i['problem']['index'] + " " + i['problem']['name'] + "> <div: " + str(div) + "> rank: " +
                           str(config.Config.rules[div][i['problem']['index']]))
                 else:
                     contest_rank += config.Config.rules[2][i['problem']['index']]
-                    print("Problem <" + i['problem']['name'] + "> contest rank: " +
+                    print("Problem <" + str(i['contestId']) + i['problem']['index'] + " " + i['problem']['name'] + "> contest rank: " +
                           str(config.Config.rules[2][i['problem']['index']]))
 
     from_count += 1000
